@@ -7,7 +7,7 @@ function mostrarAumento()
     var sueldo;
     var resultado;
     
-    sueldo=parseInt(document.getElementById("importe").value);
+    sueldo=parseFloat(document.getElementById("importe").value);
     resultado=(sueldo-sueldo*(25/100));
     document.getElementById("resultado").value=resultado;
 }
