@@ -11,7 +11,7 @@ function mostrar()
 	
 	do
 	{
-		if(contador=0){
+		if(contador==0){
 			num=parseInt(prompt("Por favor ingrese un número"));
 			while(isNaN(num)){
 				num=parseInt(prompt("Error. Por favor ingrese un número"));
